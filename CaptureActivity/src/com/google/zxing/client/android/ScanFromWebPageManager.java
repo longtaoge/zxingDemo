@@ -37,7 +37,7 @@ final class ScanFromWebPageManager {
   private static final CharSequence FORMAT_PLACEHOLDER = "{FORMAT}";
   private static final CharSequence TYPE_PLACEHOLDER = "{TYPE}";
 
-  private static final String RETURN_URL_PARAM = "ret";
+	private static final String RETURN_URL_PARAM = "ret";
   private static final String RAW_PARAM = "raw";
 
   private final String returnUrlTemplate;

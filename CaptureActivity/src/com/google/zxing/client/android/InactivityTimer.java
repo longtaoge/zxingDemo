@@ -84,7 +84,7 @@ final class InactivityTimer {
     cancel();
   }
 
-  private final class PowerStatusReceiver extends BroadcastReceiver {
+	private final class PowerStatusReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent){
       if (Intent.ACTION_BATTERY_CHANGED.equals(intent.getAction())) {

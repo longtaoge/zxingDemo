@@ -54,6 +54,7 @@ public final class ResultHandlerFactory {
       case ISBN:
         return new ISBNResultHandler(activity, result, rawResult);
       default:
+    	  //文本
         return new TextResultHandler(activity, result, rawResult);
     }
   }
